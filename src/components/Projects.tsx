@@ -1,6 +1,4 @@
 import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
@@ -57,17 +55,6 @@ export const Projects = () => {
                       {tech}
                     </span>
                   ))}
-                </div>
-
-                <div className="flex gap-3 pt-2">
-                  <Button variant="outline" size="sm" className="flex-1">
-                    <Github className="mr-2 h-4 w-4" />
-                    Code
-                  </Button>
-                  <Button size="sm" className="flex-1 bg-gradient-hero hover:opacity-90">
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    Live Demo
-                  </Button>
                 </div>
               </div>
             </Card>
