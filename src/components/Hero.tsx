@@ -48,9 +48,12 @@ export const Hero = () => {
               variant="outline"
               size="lg"
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+              asChild
             >
-              <Github className="mr-2 h-5 w-5" />
-              GitHub
+              <a href="https://github.com/Arun13021" target="_blank" rel="noopener noreferrer">
+                <Github className="mr-2 h-5 w-5" />
+                GitHub
+              </a>
             </Button>
           </div>
 
